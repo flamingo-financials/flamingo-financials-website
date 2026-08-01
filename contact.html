@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact Flamingo Financials for homeowner support, mortgage account questions, portfolio servicing, or general business inquiries.">
+  <title>Contact Us | Flamingo Financials</title>
+  <link rel="icon" href="images/logo-small.png" type="image/png">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div class="announcement"><div class="container"><span>Serving homeowners and mortgage portfolio partners nationwide</span><a href="contact.html">Get in touch</a></div></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Flamingo Financials home"><img src="images/logo-small.png" alt=""><span class="brand-copy"><strong>Flamingo</strong><span>Financials</span></span></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="site-navigation"><span></span></button>
+      <nav class="site-nav" id="site-navigation" aria-label="Primary navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a class="nav-cta" href="contact.html" aria-current="page">Contact</a></nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span>/</span><span>Contact</span></nav>
+        <p class="eyebrow">Contact Flamingo Financials</p>
+        <h1>Tell us how we can help.</h1>
+        <p class="lead">Contact us about an existing mortgage account, homeowner assistance, portfolio servicing, or a general business inquiry.</p>
+      </div>
+    </section>
+
+    <section class="page-section page-section--soft">
+      <div class="container">
+        <div class="contact-intro-grid">
+          <article class="contact-card"><h3>Existing mortgage account</h3><p>Questions about payments, escrow, statements, payoff information, or account support.</p></article>
+          <article class="contact-card"><h3>Homeowner assistance</h3><p>Contact us promptly if you are concerned about making your mortgage payment.</p></article>
+          <article class="contact-card"><h3>Portfolio servicing</h3><p>Discuss loan boarding, mortgage servicing, portfolio transfers, and institutional partnership opportunities.</p></article>
+        </div>
+
+        <div class="contact-grid">
+          <aside class="contact-details" aria-label="Contact information">
+            <div>
+              <p class="eyebrow">Contact information</p>
+              <h2>Reach our team</h2>
+            </div>
+            <div class="detail-block"><h3>Phone</h3><p><a data-contact="phone" href="#">Phone</a></p></div>
+            <div class="detail-block"><h3>Email</h3><p><a data-contact="email" href="#">Email</a></p></div>
+            <div class="detail-block"><h3>Location</h3><address data-contact="address">Address</address></div>
+            <div class="detail-block"><h3>Business hours</h3><p data-contact="hours">Hours</p></div>
+            <div class="detail-block"><h3>Protect your information</h3><p>Do not include Social Security numbers, full bank account details, passwords, or other sensitive information in this form.</p></div>
+          </aside>
+
+          <div class="form-panel">
+            <p class="eyebrow">Send a message</p>
+            <h2>How may we assist you?</h2>
+            <form data-contact-form novalidate>
+              <div class="form-grid">
+                <div class="field"><label for="first-name">First name</label><input id="first-name" name="firstName" type="text" autocomplete="given-name" required></div>
+                <div class="field"><label for="last-name">Last name</label><input id="last-name" name="lastName" type="text" autocomplete="family-name" required></div>
+                <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+                <div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel"></div>
+                <div class="field field--full"><label for="inquiry-type">What can we help with?</label><select id="inquiry-type" name="inquiryType" required><option value="">Select one</option><option>Existing mortgage account</option><option>Payment or escrow question</option><option>Homeowner assistance</option><option>Payoff request</option><option>Portfolio servicing</option><option>Business partnership</option><option>General inquiry</option></select></div>
+                <div class="field field--full"><label for="message">Message</label><textarea id="message" name="message" maxlength="2000" required aria-describedby="message-help"></textarea><span class="field-help" id="message-help">Do not enter your full loan number or sensitive financial information.</span></div>
+              </div>
+              <div class="form-actions"><button class="button button--navy" type="submit">Send inquiry</button><span class="form-status" data-form-status aria-live="polite"></span></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <div class="footer-brand"><img src="images/logo-full.png" alt="Flamingo Financials"><p>Residential mortgage servicing for homeowners and institutional portfolio partners.</p></div>
+      <div class="footer-column"><h3>Company</h3><a href="about.html">About us</a><a href="services.html">Services</a><a href="contact.html">Contact</a></div>
+      <div class="footer-column"><h3>Contact</h3><a data-contact="phone" href="#">Phone</a><a data-contact="email" href="#">Email</a><span data-contact="address">Address</span></div>
+      <div class="footer-column"><h3>Borrower notice</h3><span>Do not send Social Security numbers, bank information, or loan account numbers through general email.</span></div>
+    </div>
+    <div class="container footer-bottom"><span>© <span data-current-year></span> Flamingo Financials LLC. All rights reserved.</span><span class="legal-note">Flamingo Financials is a residential mortgage servicer. Information on this website is general and does not constitute an offer to lend or legal, tax, or financial advice.</span></div>
+  </footer>
+</body>
+</html>
